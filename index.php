@@ -31,7 +31,7 @@
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
 
     <script>
-      // MAP DASAR
+      // BASE MAP
       var map = L.map("map").setView([-7.732521, 110.402376], 11);
 
       var osm = L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
@@ -93,4 +93,5 @@
 
     </script>
   </body>
+
 </html>
